@@ -1,1 +1,1 @@
-worker: bot: bash ./start.sh
+bot: bash ./start.sh
