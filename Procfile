@@ -1,0 +1,1 @@
+worker: bot: bash ./start.sh
