@@ -17,10 +17,6 @@ def get_bot():
 
 def start_bot():
     logger.info("Starting bot")
-    import ctypes.util, discord
-
-    logger.info("Finding and loading opus")
-    discord.opus.load_opus(ctypes.util.find_library('opus'))
 
     if not _m.bot:
         _m._bot = Bot(os.getenv('BEACHBOT_TOKEN'))
